@@ -1,0 +1,3 @@
+#!/bin/sh
+# Antes de cada commit: lint y tests. Se salta con --no-verify; por eso la CI repite lo mismo.
+npm run check --silent
