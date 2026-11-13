@@ -1,6 +1,6 @@
-# CI para lo que el agente no puede saltarse
+# Linters, hooks y CI: lo que un agente no puede saltarse
 
-Código del artículo [Linters, tests de arquitectura y CI para lo que el agente no puede saltarse](https://rubentejera.com/hooks-y-ci-para-agentes/).
+Código del artículo [Linters, hooks y CI: lo que un agente no puede saltarse](https://rubentejera.com/hooks-y-ci-para-agentes/).
 
 Un proyecto mínimo de Node con tres redes que no dependen de que un agente de IA (o una persona) se acuerde de usarlas:
 
