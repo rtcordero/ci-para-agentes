@@ -1,6 +1,8 @@
 # Las redes no se cambian sin la revisión de quien las mantiene.
-# Hace efecto con la protección de rama «Require review from Code Owners».
-/eslint.config.js @rtcordero
-/.githooks/       @rtcordero
-/.github/         @rtcordero
-/test/            @rtcordero
+# Es obligatoria con la protección de rama «Require review from Code Owners».
+eslint.config.*      @rtcordero
+/package.json        @rtcordero
+/package-lock.json   @rtcordero
+/.githooks/          @rtcordero
+/.github/            @rtcordero
+/test/               @rtcordero

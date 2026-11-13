@@ -5,8 +5,9 @@ export default [
   js.configs.recommended,
   {
     languageOptions: { globals: globals.node },
-    // Un comentario en el código no puede apagar una regla: las reglas solo cambian aquí.
-    linterOptions: { noInlineConfig: true, reportUnusedDisableDirectives: 'error' },
+    // Ningún comentario en el código cambia la configuración:
+    // las reglas solo cambian aquí, y este fichero tiene dueño en CODEOWNERS.
+    linterOptions: { noInlineConfig: true },
     rules: {
       eqeqeq: 'error',
       'no-console': 'error',
